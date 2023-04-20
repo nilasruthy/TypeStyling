@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeStyling</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+             <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">SERVICES</a></li>
+             </ul>
+    </div>
+    <div class="text-editor">
+        <h1>I'm <span class="auto-input"></span></h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Non dolorum distinctio aperiam deserunt, atque labore maxime excepturi sunt tempora cum nihil rerum,
+             ratione fugiat nulla asperiores voluptatum ipsum corporis tenetur.</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: ["Nila", "Front-end Developer", "UI Designer"],
+            typeSpeed:100,
+            backSpeed:100,
+            loop: true
+        })
+    </script>
+</body>
+</html>
